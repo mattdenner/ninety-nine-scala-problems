@@ -2,8 +2,8 @@ package com.denner.ninetynine
 
 import org.specs2.mutable.Specification
 
-class Problem05Spec extends Specification {
-  import com.denner.ninetynine.Problem05.isPalindrome
+class Problem06Spec extends Specification {
+  import com.denner.ninetynine.Problem06.isPalindrome
 
   "isPalindrome" should {
     "List()"          in { isPalindrome(List())          must beTrue  }
